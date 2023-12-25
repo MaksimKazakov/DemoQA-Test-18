@@ -11,6 +11,7 @@ public class TextBoxTest {
     static void beforeAll(){
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
+        Configuration.pageLoadTimeout = 40000;
     }
 
     @Test
